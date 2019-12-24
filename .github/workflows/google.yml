@@ -36,8 +36,6 @@ jobs:
       with:
         java-version: 1.8
 
-    - name: Move To Eureka Directory
-      run: cd eurekanamingserver
       
     - name: Build with Maven
       run: mvn package 
