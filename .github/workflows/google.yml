@@ -53,6 +53,8 @@ jobs:
         # via gcloud command-line tool.
         gcloud auth configure-docker
       
+    - name: PWD
+      run: pwd
     # Build the Docker image
     - name: Build
       run: |        
