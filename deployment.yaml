@@ -5,8 +5,8 @@ metadata:
   labels:
     app: gke-test
 spec:
+  type: LoadBalancer
   ports:
-    - type: LoadBalancer
     - name: http
       port: 8080
   selector:
